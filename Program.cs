@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace ConsoleApp1
 {
     class ContactList
@@ -133,14 +134,14 @@ namespace ConsoleApp1
             }
             return count;
         }
-
+        
         // Clear all contacts
         public void ClearAllContacts()
         {
             head = null;
             Console.WriteLine("All contacts deleted.");
         }
+        
     }
-     
-
+    
 } 
